@@ -1,12 +1,12 @@
 import React from "react";
 
-function Page4() {
+const Page4 = (props) => {
   return (
     <>
       <header className="number-text">
-        <p>Hey look it's page 4!</p>
+        <p>{props.numbersData.PageFour}</p>
       </header>
     </>
   );
-}
+};
 export default Page4;

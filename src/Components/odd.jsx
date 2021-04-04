@@ -1,12 +1,13 @@
 import React from "react";
 
-const Page3 = (props) => {
+const Odd = (props) => {
   return (
     <>
       <header className="number-text">
+        <p>{props.numbersData.PageOne}</p>
         <p>{props.numbersData.PageThree}</p>
       </header>
     </>
   );
 };
-export default Page3;
+export default Odd;
