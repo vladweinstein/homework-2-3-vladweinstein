@@ -1,11 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import { Button } from "react-bootstrap";
 
 const Even = (props) => {
   return (
     <>
       <header className="number-text">
-        <p>{props.numbersData.PageTwo}</p>
-        <p>{props.numbersData.PageFour}</p>
+        <Link to="/page_2">
+          <Button>Page 2</Button>
+        </Link>
+        <Link to="/page_4">
+          <Button>Page 4</Button>
+        </Link>
       </header>
     </>
   );
